@@ -59,9 +59,13 @@ nav a {
     font-weight: bold;
 }
 
-nav a:first-child, nav a:hover {
-  background-color: #f28095;
 
+nav ul li:first-child a {
+    background-color: #f28095;
+}
+
+nav a:hover {
+    background-color: #f28095;
 }
 
 main {
